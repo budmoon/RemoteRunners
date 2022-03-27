@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>My name is Jerry Smith, and I love sucking big sweaty dicks and licking disgusting furry testicle sacks.</Text>
+      <Text>My name is Jerry Smith, and I love sucking big sweaty boners and licking disgusting furry testicle sacks.</Text>
       <StatusBar style="auto" />
     </View>
   );
