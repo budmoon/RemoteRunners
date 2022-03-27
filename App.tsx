@@ -1,11 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { useState } from 'react';
+import { StyleSheet, Text, View, Button } from 'react-native';
 
 export default function App() {
+  const [count, setCount] = useState(0);
+
   return (
     <View style={styles.container}>
       <Text>My name is Jerry Smith, and I love sucking big sweaty boners and licking disgusting furry testicle sacks.</Text>
       <StatusBar style="auto" />
+      <Button onPress={() => setCount(count + 1)} title="Click Me!" />
+      <Text>You clicked {count} times</Text>
     </View>
   );
 }
